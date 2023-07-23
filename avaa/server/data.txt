@@ -1,0 +1,50 @@
+Tajay S. Jackson
+| Jacksontajay920@gmail.com | (743) 239-8262 |  https://www.linkedin.com/in/tajay-jackson53/  | visa status- F1|
+SUMMARY  
+Innovative thinker pursuing a bachelor’s in computer science, attained experience with python, HTML, CSS, and JavaScript, determined problem solver who enjoys working with teams toward solving complex technical challenges.
+-Team leader        - Data visualization      -goal-oriented   -Problem-solving and Analytics       -Innovative
+COMPUTER/TECHNICAL SKILLS
+•	Coding languages: JavaScript, HTML, CSS, Python, J-Script, Pascal, C#, Bash, SQL
+•	Microsoft Office: Word, PowerPoint, Excel.
+•	Web development, Algorithms, Data analysis, source code management (GIT)
+•	Earned Certificate of completion, LinkedIn Learning CSS, HTML JavaScript  
+Projects 
+PORTFOLIO WEBSITE 
+This documentation demonstrates my resume using HTML, JavaScript, and CSS
+    https://shane955.github.io/My-portfolio/   
+   PAC-THON GAME 
+As a group, we Utilized python’s pygame library to create a fun and engaging game called Pac-thon.
+   https://github.com/shane955/Pac-Thon  
+RELEVANT EXPERIENCE
+Service Management intern at BlueCross Blue Shield of South Carolina 2023
+     • Worked alongside the release management team to generate reports on software and system changes.
+     • Assisted in implementing ITIL- based service management such as incident, problem, and change management.
+     • Engaged in incident management processes, including incident logging and classifications. 
+     • Actively participated in meetings, contributing ideas and suggestions to improve service management practices.
+JPMorgan Chase & co Data for good Hackathon 2023 
+•	In groups of four, used data analysis skills to gain valuable insights on complex issues and propose data-driven solutions.
+•	Demonstrated strong problem-solving skills and adaptability in a high-pressure, time-constrained environment.
+•	Utilized programming languages (Python, R) to manipulate and analyze data effectively. 
+SWE Student at Techwise offered by Google and talent sprint 2022 
+•	Learning to build technical expertise, soft skills, and tools necessary for the corporate world. 
+•	Collaborate with team members and utilize Python functionalities to construct a working game.
+•	Participate in sessions aimed at creating object-orientated code.
+•	Amplified my approach to technical questions by 60%.
+Service now hackathon 2022 
+•	Utilized the NOW platform offered by ServiceNow to create an app to solve a healthcare issue. 
+•	Collaborated with team members to create an effective workflow for the app (Surgify). 
+•	The proposed application made it to the final round of the top five teams in a pool of thirty teams. 
+EDUCATION
+Bachelor of Science in Computer Science                            
+Expected Graduation Date: May 2025  
+Benedict College, Columbia, SC                                              Cumulative GPA: 4.0/ 4.00  
+
+Related course work
+Introduction to Computing Concepts, Calculus 1, calculus 2, Principles of Programming (C++), Web Development, Algorithm Design, Algorithm Design 2, Theory of Computation, Intro to computer security and Assembly Language, Digital Logic
+LEADERSHIP & EXTRACURRICULAR ACTIVITIES
+Benedict College: President of The Men of Definition INC: M.O.D. (2021-present), NAACP (2022 -present), Google Developers Student Clubs (2021-present), International Student Association (2021-present); Passport to College (2019-present)
+
+COMMUNITY SERVICE AND OUTREACH
+M.O.D Community Cleanup (2021), Passport to College Covid Relief (2020); Benedict College Tutor (2021- present), Sam Johnson campaign for mayor South Carolina (2021).
+HONORS
+Trustee Scholarship (2021-present), Passport to College Scholar (2019-present), Certificate of Academic Excellency (2017-2019), Benedict College honors program (2021 - present), Benedict College presidents trophy recipient (2022). 
