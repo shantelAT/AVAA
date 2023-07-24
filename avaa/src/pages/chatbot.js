@@ -1,11 +1,20 @@
 import React from "react";
 import Head from "next/head";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import useWebSocket from './utils/useWebSocket';
 
 
-export default function Home() {
+const Chatbot = () => {
   const [isLoading, setIsLoading] = React.useState(false);
   const [error, setError] = React.useState(false);
+
+  const [userInput, setUserInput] = React.useState('');
+  const { messages, sendMessage } = useWebSocket();
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    sendMessage(userInput);
+    setUserInput('');
+  };
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error...</div>;
@@ -26,8 +35,23 @@ export default function Home() {
       </Head>
 
       <main className="index-main">
-        
+      <div>
+      <h1>Chatbot</h1>
+      <div id="chat-container">
+        <div id="chat-log">
+          {messages.map((message, index) => (
+            <div key={index}>{`${message.sender}: ${message.text}`}</div>
+          ))}
+        </div>
+        <form onSubmit={handleSubmit}>
+          <input type="text" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
       </main>
     </>
   );
 }
+
+export default Chatbot;
