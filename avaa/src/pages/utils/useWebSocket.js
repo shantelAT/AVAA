@@ -7,7 +7,7 @@ const useWebSocket = () => {
   const [messages, setMessages] = useState([]);
   
   useEffect(() => {
-    const ws = new WebSocket('ws://localhost:8000'); // Replace with your server address
+    const ws = new WebSocket('ws://localhost:3000'); // Replace with your server address
     
     ws.onopen = () => {
       setSocket(ws);

@@ -1,9 +1,6 @@
 // pages/chatbot-paragraph.js
-import React from "react";
 import useWebSocket from './utils/useWebSocket';
 import React, { useState, useEffect } from 'react';
-import useWebSocket from '../utils/useWebSocket';
-import Navbar from "@/components/Navbar";
 
 const ChatbotParagraph = () => {
   const [userInput, setUserInput] = useState('');
