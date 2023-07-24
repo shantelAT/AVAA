@@ -3,6 +3,7 @@ import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Navbar from "@/components/Navbar";
 import Carousel from "@/components/Carousel";
+import About from "@/components/About"
 
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <main className="index-main">
         <Navbar ></Navbar>
         <Carousel></Carousel>
+        <About></About>
       </main>
     </>
   );

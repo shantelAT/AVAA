@@ -197,6 +197,7 @@ position: relative;
 
 .aboutus-row{
     margin:  50px 50px  50px 0px;
+    padding: 10px;
     background-color: var(--accent-color-light);
     display: flex;
     justify-content: center;
@@ -249,7 +250,6 @@ position: relative;
 .textcard-btn:hover{
     color: var(--accent-color2);
     background: none;
-    font-size:20px;
 }
 
 .imagecard{
@@ -262,8 +262,8 @@ position: relative;
     border: none;
     background-color: none;
     box-shadow: 5px 10px 12px 0px grey;
-    height: 480px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
 }
 
 

@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import React, { useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
-import styles from "@/components/NavBar.module.css"
 
 
 function NavBar({showElement}) {
@@ -17,7 +16,7 @@ function NavBar({showElement}) {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src='../1.svg'
+              src='../mainlogo.PNG'
               width="200"
               height="90"
               className="d-inline-block align-top"
@@ -36,13 +35,7 @@ function NavBar({showElement}) {
         <Nav.Item>
           <Nav.Link style={{color:"white"}} 
           eventKey="link-2" href="/chatbot"
-          className='nav-link'>Chatbot Pag</Nav.Link>
-        </Nav.Item>
-
-        <Nav.Item>
-          <Nav.Link style={{color:"white"}} 
-          eventKey="link-2" href="/chatbot-paragraph"
-          className='nav-link'>Chatbot Paragraph Page</Nav.Link>
+          className='nav-link'>Chatbot</Nav.Link>
         </Nav.Item>
 
         <Dropdown>
@@ -51,7 +44,7 @@ function NavBar({showElement}) {
         <Nav.Item>
         {showElement ? <Nav.Link style={{color:"white"}} 
         href='/signinpage' 
-        className='nav-btn'>Sign in</Nav.Link> : <Card.Img className="card-avatar" src='../aboutus.svg'/>}
+        className='nav-btn'>Sign in</Nav.Link> : <Card.Img className="card-avatar" src='../pp.jpg'/>}
         </Nav.Item>
 
         <Nav.Item>
