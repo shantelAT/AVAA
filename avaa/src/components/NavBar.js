@@ -35,8 +35,14 @@ function NavBar({showElement}) {
 
         <Nav.Item>
           <Nav.Link style={{color:"white"}} 
-          eventKey="link-2" href='/blogpage'
-          className='nav-link'>Blog</Nav.Link>
+          eventKey="link-2" href="/chatbot"
+          className='nav-link'>Chatbot Pag</Nav.Link>
+        </Nav.Item>
+
+        <Nav.Item>
+          <Nav.Link style={{color:"white"}} 
+          eventKey="link-2" href="/chatbot-paragraph"
+          className='nav-link'>Chatbot Paragraph Page</Nav.Link>
         </Nav.Item>
 
         <Dropdown>
