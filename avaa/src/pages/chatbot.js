@@ -16,6 +16,11 @@ const Chatbot = () => {
     setUserInput('');
   };
 
+  const scrollToBottom = () => {
+    const chatLog = document.getElementById('chat-log');
+    chatLog.scrollTop = chatLog.scrollHeight;
+  };
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error...</div>;
 
@@ -38,7 +43,7 @@ const Chatbot = () => {
       <div>
       <h1>Chatbot</h1>
       <div id="chat-container">
-        <div id="chat-log">
+        <div id="chat-log" style={{ height: '300px', overflowY: 'scroll', border: '1px solid #ccc', padding: '10px' }}>
           {messages.map((message, index) => (
             <div key={index}>{`${message.sender}: ${message.text}`}</div>
           ))}
@@ -47,6 +52,15 @@ const Chatbot = () => {
           <input type="text" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
           <button type="submit">Send</button>
         </form>
+      </div>
+      <div style={{ marginTop: '20px' }}>
+        <h2>Chatbot Replies in Paragraph Format</h2>
+        <p>
+          {messages
+            .filter((message) => message.sender === 'chatbot')
+            .map((message, index) => message.text)
+            .join(' ')}
+        </p>
       </div>
     </div>
       </main>
