@@ -11,7 +11,7 @@ from langchain.chat_models import ChatOpenAI
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
 query = sys.argv[1]
-print(query)
+#print(query)
 
 loader = TextLoader('data.txt')
 

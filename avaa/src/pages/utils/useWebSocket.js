@@ -7,7 +7,7 @@ const useWebSocket = () => {
   const [messages, setMessages] = useState([]);
   
   useEffect(() => {
-    const ws = new WebSocket('ws://localhost:3000'); // Replace with your server address
+    const ws = new WebSocket('ws://localhost:3000'); 
     
     ws.onopen = () => {
       setSocket(ws);
@@ -32,5 +32,5 @@ const useWebSocket = () => {
   
   return { messages, sendMessage };
 };
-
+ 
 export default useWebSocket;
